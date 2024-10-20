@@ -6,7 +6,6 @@ const reqURL = `https://ck.hdm3.in/lp.php?_save_form=true&hid=fad0dfd4h6fd6ze1ec
 async function submit() {
     try {
         const response = await fetch(reqURL, { method: 'GET' });
-        const responseText = await response.text();
         console.log("Response status:", response.status);
         if (response.ok) {
             console.log("Form submitted successfully!");
