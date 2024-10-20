@@ -12,7 +12,7 @@ async function submit() {
         if (response.ok) {
             console.log("Form submitted successfully!");
             // Manually set the redirect URL
-            const redirectUrl = "https://your-redirect-url.com"; // Replace with the actual URL
+            const redirectUrl = "https://ck.hdm3.in/lp.php?_save_form=true&hid=fb063bd6z6fd6je1ec858c16nf23c3vb075bf33&sid=085aaaf6&lead_data%5Bname%5D=harsh+Kumar&lead_data%5Bemail%5D=harshbkp123%40gmail.com&lead_data%5Bcontact_no%5D=7209985453"; // Replace with the actual URL
             console.log("Redirecting to:", redirectUrl);
             window.location.href = redirectUrl;
         } else {
